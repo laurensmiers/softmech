@@ -38,7 +38,7 @@ import os
 import re
 import time
 import threading
-import Image
+from PIL.Image import core as image
 
 from Xlib import X, XK, display, error
 from Xlib.ext import record
